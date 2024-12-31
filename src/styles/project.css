@@ -1,0 +1,53 @@
+.project-card{
+   
+    display: flex;
+    flex-direction: column;
+     /* Adjust width as needed */
+    padding: 50px; /* Add padding for inner content */
+    margin:  auto; /* Center the card with auto margins */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+    background-color: white; /* Background color for the card */
+    
+    box-shadow: 
+    0 0 50px rgba(20, 71, 0, 0.555), 
+    0 0 50px rgba(98, 255, 0, 0.562);;
+    
+                text-align: center; /* Centers text inside the card */
+                margin-left: 20px;
+                height: 400px;
+}
+
+  
+.project-unknown{
+    display: flex;
+    flex-direction: column;
+    padding:0 100px 100px 100px;
+}
+.project-unknown h1{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(1, 71, 1);
+}
+.project-icon{
+    font-size: 50px;
+}
+.project-card-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    
+}
+.project-icon-container{
+    border-radius: 50%;
+    border: 2px solid green;
+  width: 100px;
+  margin: auto;
+    text-align: center;
+    padding: 20px;
+
+}
+.project-icon-container:hover{
+    background-color: green;
+}

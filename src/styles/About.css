@@ -1,0 +1,77 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.about-header {
+  background-image: url('./../img/coffee.jpg.webp'); /* Image source */
+  background-repeat: no-repeat; /* Avoids tiling the image */
+  background-size: cover; /* Ensures the image fills the section */
+  background-position: center; /* Centers the image content */
+   /* Fallback color */
+  
+  height: 300px; /* Set height for the header */
+  margin: 0;
+  text-align: center; /* Centers text horizontally */
+
+  display: flex;
+  flex-direction: column; /* Flexbox for aligning content */
+  /* Centers content vertically */
+  color: rgb(255, 145, 50); /* Text color for better contrast */
+  font-family: 'Arial', sans-serif; /* Optional font for header text */
+}
+.sub-header{
+  background-color: rgba(0, 0, 0, 0.8);
+  justify-content: center; /* Centers content horizontally */
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.about-header h1{
+  font-size: 50px;
+  
+}
+.about-container{
+  display: flex;
+  flex-direction: column;
+  
+  
+  
+ 
+}
+.about-container::before {
+  content: ""; /* Required to display the pseudo-element */
+  position: absolute; /* Allows positioning relative to the nearest positioned parent */
+  top: 50%;
+  left: 40%;
+  width: 50%; /* Ensures it covers the container */
+  height: 100%; /* Matches the container's height */
+  
+  background: url('./../img/backgroundbeans.png'); /* Background image */
+   /* Ensures the image covers the pseudo-element */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents tiling */
+  
+  color: black; /* This won’t have an effect since `::before` doesn’t display text */
+  opacity: 0.1; /* Optional: Adds transparency to the image */
+  /* Moves the pseudo-element behind the container content */
+}
+.about-headers{
+  color: green;
+  text-align: center;
+}
+
+
+.about-ps{
+  width: 500px;
+  
+}
+.about-content{
+  padding: 100px;
+}
+.about-detail{
+  padding-top:100px ;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}

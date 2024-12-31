@@ -1,0 +1,100 @@
+.contact-container{
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.form {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive columns */
+    gap: 20px; /* Space between fields */
+    max-width: 600px; /* Limit the form width */
+    margin: 0 auto; /* Center the form */
+   
+    padding: 50px;
+    
+    border-radius: 20px;
+  }
+  .form-container h1{
+  font-size: 50px;
+  color: green;
+  text-align: center;
+  }
+  .form-container p{
+    color: green;
+    margin-left: 150px;
+    font-weight: bolder;
+    border-bottom: 4px solid green;
+  }
+  .form input,
+  .form textarea {
+    padding: 10px; /* Inner spacing for comfort */
+    border: 2px solid #ccc; /* Border for the fields */
+    border-radius: 8px; /* Rounded corners */
+    font-size: 16px; /* Text size */
+    width: 100%; /* Ensure fields span full column width */
+    box-sizing: border-box; /* Include padding and border in width */
+  }
+  
+  .form textarea {
+    grid-column: span 2;
+    resize: vertical;
+     /* Allow vertical resizing only */
+  }
+  
+  .form input:focus,
+  .form textarea:focus {
+    border-color: #72b3ef; /* Highlight border on focus */
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 5px rgba(114, 179, 239, 0.5); /* Subtle glow */
+  }
+  .contact-detail{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    padding-left: 150px;
+    border-radius: 20px;
+    background-color: rgb(0, 90, 20);
+    color: white;
+    margin: auto;
+    
+    
+  }
+  .submit {
+    grid-column: span 2; /* Ensures the button spans all columns */
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .contact-main-container::before {
+    
+    content: ""; /* Required to display the pseudo-element */
+    position: absolute; 
+    top: 55%;
+    
+    width: 50%; /* Ensures it covers the container */
+    height: 100%; /* Matches the container's height */
+    
+    background: url('./../img/backgroundbeans.png');
+ /* Ensures the image covers the pseudo-element */
+    background-position: center; 
+    background-repeat: no-repeat; 
+    
+    opacity: 0.1; 
+  }
+  .contact-icon {
+    font-size: 50px; /* Icon size */
+   
+
+  }
+  
+  .contact-detail h1{
+    font-size: 50px;
+  }

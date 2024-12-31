@@ -1,0 +1,53 @@
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    background-color: rgb(51, 1, 1);
+    color: gold;
+    padding-top: 50px;
+}
+.col2{
+    display: flex;
+    flex-direction: column;
+    
+}
+.col2 a{
+    text-decoration: none;
+    color: gold;
+    margin-top: 20px;
+    font-weight: bold;
+   
+}
+.foot-head{
+    text-decoration: underline;
+}
+.col3 ul li{
+    list-style: none;
+    margin-top: 20px;
+}
+.phone{
+    display: flex;
+    align-items: center;
+    
+}
+.mail{
+    display: flex;
+    align-items: center;
+}
+.mail h3{
+    margin-left: 20px; 
+}
+.location h3{
+    margin-left: 20px;
+}
+.location{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    font-size: 30px;
+}
+.phone h3{
+margin-left: 20px;
+}

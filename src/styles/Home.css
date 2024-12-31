@@ -1,0 +1,58 @@
+.Home-container{
+    display: flex;
+    background: linear-gradient(90deg,yellow,green);
+    padding: 50px;
+    background-position: absolute;
+    
+
+}
+.Home-container::before {
+    content: '';
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    width: 500px;
+    height: 500px;
+    background: rgb(255, 183, 0);
+    border-radius: 50%;
+    opacity: 0.2;
+  }
+  .Home-container::after {
+    content: '';
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    width: 250px;
+    height: 250px;
+    background: green;
+    border-radius: 50%;
+    opacity: 0.1;
+  }
+.topic{
+    
+    
+    margin-left: 200px;
+    
+}
+.h1{
+    font-size: 80px;
+    color: rgb(41, 31, 6);
+}
+.h1 span{
+    color: green;
+}
+img{
+    float: left;
+}
+.p{
+    width: 500px;
+    color: #333;
+    font-weight: 600;
+}
+.button{
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(90deg,goldenrod,green);
+    font-weight: bold;
+    color: #3f3900;
+}

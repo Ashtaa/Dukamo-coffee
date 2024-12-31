@@ -1,0 +1,24 @@
+.nav a{
+    
+    color:rgb(17, 2, 2);
+    text-decoration: dashed;
+    padding:30px;
+    border-radius: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-container{
+    
+    /* background: linear-gradient(90deg,yellow,green); */
+    
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.logo{
+   
+    
+}
