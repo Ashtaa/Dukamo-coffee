@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Dukamo-coffee/static/css/main.56d678c6.css",
+    "main.css": "/Dukamo-coffee/static/css/main.af4799de.css",
     "main.js": "/Dukamo-coffee/static/js/main.63241937.js",
     "static/js/488.b42df903.chunk.js": "/Dukamo-coffee/static/js/488.b42df903.chunk.js",
     "static/media/coffee-bean-768x604.png": "/Dukamo-coffee/static/media/coffee-bean-768x604.a60a96068edda049312e.png",
@@ -8,12 +8,12 @@
     "static/media/tree.jpg": "/Dukamo-coffee/static/media/tree.aa513f16ca45626488fe.jpg",
     "static/media/backgroundbeans.png": "/Dukamo-coffee/static/media/backgroundbeans.abd89a029e39808c3158.png",
     "index.html": "/Dukamo-coffee/index.html",
-    "main.56d678c6.css.map": "/Dukamo-coffee/static/css/main.56d678c6.css.map",
+    "main.af4799de.css.map": "/Dukamo-coffee/static/css/main.af4799de.css.map",
     "main.63241937.js.map": "/Dukamo-coffee/static/js/main.63241937.js.map",
     "488.b42df903.chunk.js.map": "/Dukamo-coffee/static/js/488.b42df903.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.56d678c6.css",
+    "static/css/main.af4799de.css",
     "static/js/main.63241937.js"
   ]
 }
